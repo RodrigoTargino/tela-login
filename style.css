@@ -48,7 +48,8 @@ div#formulario {
     background-color: white;
     text-align: center;
     padding: 10px;
-    width: 40vw;
+    width: 600px;
+    height: 310px;
     position: absolute;
     top: 20%;
     left: 36%;
@@ -58,8 +59,8 @@ div#formulario {
 }
 
 img {
-    max-width: 20vw;
-    height: 52.2vh;
+    width: 220px;
+    
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
