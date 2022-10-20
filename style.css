@@ -109,3 +109,7 @@ form>input#Esqueci {
     color: var(--cor2);
     background-color: #795bf071 ;
 }
+
+span#imail {
+    display: inline-block;
+}
