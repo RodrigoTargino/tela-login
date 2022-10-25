@@ -70,9 +70,9 @@ form {
 }
 
 form > input {
-    font-size: 1.3em;
+    font-size: 1.4em;
     width: 30vw;
-    padding: 5px;
+    padding: 4px;
     background-color: #57ade696;
     border: 2px solid var(--cor3);
     border-bottom-right-radius: 8px;
@@ -81,7 +81,7 @@ form > input {
 
 label {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bolder;
     padding: 7px;
     background-color: var(--cor3);
@@ -111,5 +111,18 @@ form>input#Esqueci {
 }
 
 span#imail {
-    display: inline-block;
+    font-size: 1.4em;
+    position: absolute;
+    top: 37.5%;
+    left: 10%;
+    color: white;
+    font-size: 1.6em;
+    font-weight: bolder;
+    background-color: var(--cor3);
+    padding-bottom: 3px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
