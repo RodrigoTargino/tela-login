@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #57ACE6 ;
+    --cor1: #5B8CF0 ;
+    --cor2: #5D65D9 ;
+    --cor3: #795BF0 ; 
+    --cor4: #9B57E6 ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cor0) url(../imagens/pexels-henry-&-co-1939485.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 300px;
+    height: 500px;
+    border-radius: 6px;
+    transition: width 0.7s, heidth 0.7s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: url(../imagens/pexels-hana-brannigan-3652902.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    height: 200px;
+}
+
+section#login > div#formula{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+div#formula > h1 {
+    color: #795BF0;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    text-shadow: 1px 2px #5d65d993;
+}
+
+div#formula > p {
+    padding-bottom: 20px;
+}
+
+div.camp > input{
+    font-size: 1em;
+    padding: 6px;
+}
