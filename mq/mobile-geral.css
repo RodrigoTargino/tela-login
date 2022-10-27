@@ -35,10 +35,11 @@ section#login {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.644);
     width: 300px;
-    height: 500px;
+    height: 600px;
     border-radius: 6px;
     transition: width 0.7s, heidth 0.7s;
     transition-timing-function: ease;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.384);
 }
 
 section#login > div#imagem {
@@ -56,7 +57,8 @@ section#login > div#formula{
 }
 
 div#formula > h1 {
-    color: #795BF0;
+    color: var(--cor1);
+    font-size: 2em;
     margin-top: 8px;
     margin-bottom: 15px;
     text-shadow: 1px 2px #5d65d993;
@@ -67,6 +69,61 @@ div#formula > p {
 }
 
 div.camp > input{
+    background-color: rgba(255, 255, 255, 0.171);
     font-size: 1em;
-    padding: 6px;
+    padding: 8px;
+    margin: 10px;
+    width: 240px;
+    border: 1px solid var(--cor2);border-radius: 5px;
+}
+
+input#entrar {
+    cursor: pointer;
+    color: var(--cor3);
+    background-color: rgba(255, 255, 255, 0.171);
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px;
+    margin-right: 30px;
+    width: 255px;
+    border-radius: 5px;
+    border: 1px solid var(--cor2);
+} 
+
+input#entrar:hover {
+    background-color: rgba(255, 255, 255, 0.582);
+}
+
+span {
+    color: var(--cor3);
+    display: inline-block;
+    height: 35px;
+    width: 40px;
+    margin:-17px;
+}
+
+a.esq {
+    text-decoration: none;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.171);
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px;
+    width: 255px;
+    color: var(--cor3);
+    border: 1px solid var(--cor2);
+    border-radius: 5px;
+}
+
+a.esq:hover {
+    background-color: rgba(255, 255, 255, 0.582);
+}
+
+p.voltar {
+    cursor: pointer;
+    font-weight: bolder;
+    color: var(--cor3);
+    margin-top: 22px;
+    margin-left: 25px;
+    text-align: left;
 }

@@ -15,11 +15,26 @@
         float: right;
         width: 70%;
     }
+
+    div.camp > input {
+        width: 500px;
+    }
+
+    input#entrar {
+        width: 500px;
+        margin-right: 35px;
+    }
+
+    a.esq {
+        width: 500px;
+        margin-left: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     section#login {
         width: 990px;
+        height: 500px;
     }
 
     section#login > div#imagem {
@@ -34,10 +49,33 @@
     }
 
     div#formula > h1 {
-        font-size: 2.2em;
+        font-size: 2.8em;
     }
 
     div#formula {
         font-size: 1.3em;
+    }
+
+    div.camp > input {
+        width: 500px;
+    }
+
+    input#entrar {
+        width: 540px;
+        margin-right: 35px;
+    }
+
+    a.esq {
+        width: 540px;
+        margin-left: 28px;
+    }
+
+    p.voltar {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    p.voltar:hover {
+        color: #9B57E6;
     }
 }
