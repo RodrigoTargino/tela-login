@@ -97,6 +97,7 @@ input#entrar:hover {
 span {
     color: var(--cor3);
     display: inline-block;
+    transform: translatey(5px);
     height: 35px;
     width: 40px;
     margin:-17px;
