@@ -57,11 +57,11 @@ section#login > div#formula{
 }
 
 div#formula > h1 {
-    color: var(--cor1);
+    color: var(--cor2);
     font-size: 2em;
     margin-top: 8px;
     margin-bottom: 15px;
-    text-shadow: 1px 2px #5d65d993;
+    text-shadow: 1px 2px #5B8CF0;
 }
 
 div#formula > p {
