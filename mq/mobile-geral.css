@@ -128,3 +128,7 @@ p.voltar {
     margin-left: 25px;
     text-align: left;
 }
+
+p.voltar > span {
+    transform: translatey(5px);
+}
